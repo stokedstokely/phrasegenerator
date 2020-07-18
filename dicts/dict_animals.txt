@@ -1,0 +1,185 @@
+alligator
+ant
+bear
+bee
+camel
+cheetah
+chicken
+chimpanzee
+cow
+crocodile
+deer
+dog
+dolphin
+duck
+eagle
+elephant
+fish
+fly
+fox
+frog
+giraffe
+goat
+goldfish
+hamster
+hippopotamus
+horse
+kangaroo
+kitten
+leopard
+lion
+lizard
+lobster
+monkey
+octopus
+ostrich
+otter
+owl
+oyster
+panda
+parrot
+pelican
+pig
+pigeon
+porcupine
+puppy
+rabbit
+rat
+reindeer
+rhinoceros
+rooster
+scorpion
+seal
+shark
+sheep
+shrimp
+snail
+snake
+sparrow
+spider
+squid
+squirrel
+swallow
+swan
+tiger
+toad
+tortoise
+turtle
+vulture
+walrus
+weasel
+whale
+wolf
+zebra
+bass
+carp
+cod
+crab
+crawdad
+crayfish
+eel
+halibut
+herring
+lobster
+oyster
+perch
+pike
+salmon
+sardine
+shark
+shrimp
+sturgeon
+tadpole
+trout
+tuna
+swordfish
+bird
+carp
+cat
+chicken
+dog
+goldfish
+hamster
+horse
+monkey
+pigeon
+rabbit
+snake
+tropical fish
+Afghan Hound
+Airedale
+Airedale Terrier
+Basenji
+Basset Hound
+Beagle
+Bloodhound
+Border Collie
+Boxer
+Bulldog
+Chihuahua
+Chow Chow
+Cocker Spaniel
+Corgi
+Dachshund
+Dalmatian
+Doberman
+Fox Terrier
+German Shepherd
+Golden Retriever
+Great Dane
+Greyhound
+Irish Setter
+Labrador
+Lhasa Apso
+Newfoundland
+Pekingese
+Pit Bull Terrier
+Pointer
+Pomeranian
+Poodle
+Saint Bernard
+Schnauzer
+Scottish Terrier
+Sheepdog
+Shih Tzu
+Siberian Husky
+Spaniel
+Spitz
+aardvark
+bear
+camel
+crocodile
+elephant
+giraffe
+kangaroo
+leopard
+lion
+llama
+monkey
+ostrich
+rhinoceros
+snake
+tiger
+wolf
+zebra
+anteater
+armadillo
+baboon
+badger
+beaver
+cheetah
+cougar
+gazelle
+gorilla
+ocelot
+panda
+panther
+porcupine
+wallaby
+zebra
+puma
+lynx
+bobcat
+jaguar
+hyena
+alligator

@@ -1,0 +1,162 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #292929;
+  overflow: hidden;
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+}
+.container {
+  color: #fefefe;
+  width: 75%;
+  height: 100%;
+  padding: 0 12.5%;
+
+}
+.words-container {
+  width: 100%;
+  float: left;
+  font-size: 2em;
+  letter-spacing: 4px;
+}
+.other-options {
+  width: 100%;
+  margin: 25px 0 0 0;
+  float: left;
+}
+.words-container span {
+  display: inline-block;
+  float: left;
+  margin: 0 15px 0 0;
+  text-transform: uppercase;
+}
+.title h3 {
+  font-size: 2em
+}
+.words-container span:after {
+  content: " "
+}
+
+
+.left-Col-Btn {
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 4px;
+  color: #fefefe;
+  margin: 0 0 15px 0;
+  border: none;
+  transform: translate(0, -2px); }
+
+.btn-half {
+  width: 45%; }
+
+.btn-full {
+  width: 95%; }
+.btn-quarter {
+  width: 25%
+}
+
+.left-Col-Btn:hover {
+  cursor: pointer; }
+
+.left-Col-Btn:active {
+  transform: translate(0, 2px); }
+
+.btn-Green {
+  background: #356735;
+  box-shadow: 0px 8px 0px #173117; }
+
+.btn-Green:hover {
+  background: #254B25; }
+
+.btn-Green:active {
+  box-shadow: 0px 2px 0px #173117; }
+
+.btn-Red {
+  background: #804343;
+  box-shadow: 0px 8px 0px #3D1D1D; }
+
+.btn-Red:hover {
+  background: #5E2F2F; }
+
+.btn-Red:active {
+  box-shadow: 0px 2px 0px #3D1D1D; }
+
+.btn-Blue {
+  background: #284D4D;
+  box-shadow: 0px 8px 0px #112525; }
+
+.btn-Blue:hover {
+  background: #1C3838; }
+
+.btn-Blue:active {
+  box-shadow: 0px 2px 0px #112525; }
+
+.btn-Orange {
+  background: #805F43;
+  box-shadow: 0px 8px 0px #3D2B1D; }
+
+.btn-Orange:hover {
+  background: #5E442F; }
+
+.btn-Orange:active {
+  box-shadow: 0px 2px 0px #3D2B1D; }
+
+.btn-Gray {
+  box-shadow: 0px 8px 0px #1d1d1d;
+  background: #343434; }
+
+.btn-Gray:active {
+  box-shadow: 0px 2px 0px #1d1d1d; }
+
+.btn-Purple {
+  background: #433057;
+  box-shadow: 0px 8px 0px #1F1529; }
+
+.btn-Purple:hover {
+  background: #31223F; }
+
+.btn-Purple:active {
+  box-shadow: 0px 2px 0px #292929; }
+
+.btn-Magenta {
+  background: #673551;
+  box-shadow: 0px 8px 0px #311726; }
+
+.btn-Magenta:hover {
+  background: #4B263B; }
+
+.btn-Magenta:active {
+  box-shadow: 0px 2px 0px #311726; }
+
+.btn-DarkGreen {
+  background: #356735;
+  box-shadow: 0px 8px 0px #173117; }
+
+.btn-DarkGreen:hover {
+  background: #254B25; }
+
+.btn-DarkGreen:active {
+  box-shadow: 0px 2px 0px #173117; }
+
+.btn-Teal {
+  background: #2C5548;
+  box-shadow: 0px 8px 0px #132822; }
+
+.btn-Teal:hover {
+  background: #1F3E35; }
+
+.btn-Teal:active {
+  box-shadow: 0px 2px 0px #132822; }
+
+.btn-DarkBlue {
+  background: #2F4054;
+  box-shadow: 0px 8px 0px #141E28; }
+
+.btn-DarkBlue:hover {
+  background: #212E3D; }
+
+.btn-DarkBlue:active {
+  box-shadow: 0px 2px 0px #141E28; }

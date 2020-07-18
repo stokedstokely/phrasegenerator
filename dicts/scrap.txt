@@ -1,0 +1,155 @@
+#&#TRwAT4a21Jb0L
+function fillMediaAudio() {
+    let mediaMusicContainer = document.getElementById("mediaMusicContainer");
+    let length = mediaProjects.music.length, i = 0;
+    while (i < length) {
+        projectContainer = document.createElement("ul");
+        projectContainer.setAttribute("class","projectcard");
+        divLeft = document.createElement("div");
+        divLeft.setAttribute("class","pc_left");
+
+        // CREATE TITLE INFO
+        titleLiContainer = document.createElement("li");
+        titleLiUl = document.createElement("ul");
+        titleLi = document.createElement("li");
+        titleLi.innerText = "Title";
+        titleLiText = document.createElement("li");
+        titleLiText.innerText = mediaProjects.music[i].title;
+
+        // CREATE TYPE INFO
+        typeLiContainer = document.createElement("li");
+        typeLiUl = document.createElement("ul");
+        typeLi = document.createElement("li");
+        typeLi.innerText = "Type";
+        typeLiText = document.createElement("li");
+        typeLiText.innerText = mediaProjects.music[i].type;
+
+        // CREATE COMMENTS INFO
+        commentLiContainer = document.createElement("li");
+        commentLiUl = document.createElement("ul");
+        commentLi = document.createElement("li");
+        commentLi.innerText = "Comments";
+        commentLiText = document.createElement("li");
+        commentLiText.innerText = mediaProjects.music[i].comments;
+
+
+        // CREATE RIGHT SIDE CONTENT
+        divRight = document.createElement("div");
+        divRight.setAttribute("class","pc_right");
+        audioElement = document.createElement("audio");
+        audioElement.setAttribute("class","mediaproject-audio");
+        audioElement.controls = 'controls';
+        audioElement.type = 'music/music3.mp3';
+        audioElement.src = mediaProjects.music[i].url;
+
+
+        // APPEND
+        mediaMusicContainer.appendChild(projectContainer);
+            // LEFT SIDE
+            projectContainer.appendChild(divLeft);
+                divLeft.appendChild(titleLiContainer);
+                titleLiContainer.appendChild(titleLiUl);
+                    titleLiUl.appendChild(titleLi);
+                    titleLiUl.appendChild(titleLiText);
+                divLeft.appendChild(typeLiContainer);
+                typeLiContainer.appendChild(typeLiUl);
+                    typeLiUl.appendChild(typeLi);
+                    typeLiUl.appendChild(typeLiText);
+                divLeft.appendChild(commentLiContainer);
+                commentLiContainer.appendChild(commentLiUl);
+                        commentLiUl.appendChild(commentLi);
+                        commentLiUl.appendChild(commentLiText);
+            // RIGHT SIDE
+            projectContainer.appendChild(divRight);
+                divRight.appendChild(audioElement);
+
+                
+        i++
+    }
+
+
+}
+
+
+
+
+
+
+
+
+function gifsOnly() {
+		var getprojects = document.querySelectorAll("#mediaprojects .projectcard");
+		var i = 0;
+		while (i < getprojects.length) {
+            let musicid = "music"+(i+1),
+                gifid = "gif"+(i+1),
+                photoid = "photo"+(i+1),
+                vidid = "vid"+(i+1);
+			document.getElementById(gifid).style.display = "block";
+			document.getElementById(musicid).style.display = "none";			
+			document.getElementById(photoid).style.display = "none";	
+			document.getElementById(vidid).style.display = "none";			
+		i++;
+		}
+}
+function musicOnly() {
+		var getprojects = document.querySelectorAll("#mediaprojects .projectcard");
+		var i = 0;
+		while (i < getprojects.length) {
+            let musicid = "music"+(i+1),
+                gifid = "gif"+(i+1),
+                photoid = "photo"+(i+1),
+                vidid = "vid"+(i+1);
+			document.getElementById(gifid).style.display = "none";
+			document.getElementById(musicid).style.display = "block";			
+			document.getElementById(photoid).style.display = "none";	
+			document.getElementById(vidid).style.display = "none";			
+		i++;
+		}
+}
+function allMedia() {
+		var getprojects = document.querySelectorAll("#mediaprojects .projectcard");
+		var i = 0;
+		while (i < getprojects.length) {
+            let musicid = "music"+(i+1),
+                gifid = "gif"+(i+1),
+                photoid = "photo"+(i+1),
+                vidid = "vid"+(i+1);
+			document.getElementById(gifid).style.display = "block";
+			document.getElementById(musicid).style.display = "block";		
+			document.getElementById(photoid).style.display = "block";	
+			document.getElementById(vidid).style.display = "block";	
+		i++;
+		}
+
+}
+function photosOnly() {
+    var getprojects = document.querySelectorAll("#mediaprojects .projectcard");
+    var i = 0;
+    while (i < getprojects.length) {
+        let musicid = "music"+(i+1),
+            gifid = "gif"+(i+1),
+            photoid = "photo"+(i+1),
+            vidid = "vid"+(i+1);
+        document.getElementById(gifid).style.display = "none";
+        document.getElementById(musicid).style.display = "none";			
+        document.getElementById(photoid).style.display = "block";	
+        document.getElementById(vidid).style.display = "none";			
+    i++;
+    }
+}
+function vidsOnly() {
+    var getprojects = document.querySelectorAll("#mediaprojects .projectcard");
+    var i = 0;
+    while (i < getprojects.length) {
+        let musicid = "music"+(i+1),
+            gifid = "gif"+(i+1),
+            photoid = "photo"+(i+1),
+            vidid = "vid"+(i+1);
+        document.getElementById(gifid).style.display = "none";
+        document.getElementById(musicid).style.display = "none";			
+        document.getElementById(photoid).style.display = "none";	
+        document.getElementById(vidid).style.display = "block";			
+    i++;
+    }
+}
